@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" width="240" height="200">
+  <title>Barrica de ovos moles</title>
+  <!-- Corpo da barrica -->
+  <path d="M60 50 Q48 110 60 170 L180 170 Q192 110 180 50 Z" fill="#c8894a" stroke="#6b3e17" stroke-width="4"/>
+  <!-- Aros -->
+  <path d="M55 80 L185 80" stroke="#6b3e17" stroke-width="6"/>
+  <path d="M55 140 L185 140" stroke="#6b3e17" stroke-width="6"/>
+  <!-- Flores pintadas -->
+  <circle cx="100" cy="110" r="11" fill="#e94f64"/>
+  <circle cx="100" cy="110" r="4" fill="#ffd23f"/>
+  <circle cx="140" cy="110" r="11" fill="#3d7dd8"/>
+  <circle cx="140" cy="110" r="4" fill="#ffd23f"/>
+  <!-- Tampa aberta com o doce -->
+  <ellipse cx="120" cy="50" rx="60" ry="14" fill="#f5b82e" stroke="#6b3e17" stroke-width="4"/>
+  <ellipse cx="120" cy="48" rx="44" ry="8" fill="#ffd96b"/>
+</svg>
