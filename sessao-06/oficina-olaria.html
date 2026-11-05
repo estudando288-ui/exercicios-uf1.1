@@ -25,6 +25,7 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <!--Sessão de Workshops-->
         <section id="workshops">
@@ -71,21 +72,58 @@
 
         <!--Sessão de Horários-->
         <section id="horarios">
-            Horários e Modalidades
+            <h2>Horários e Modalidades</h2>
+            <table>
+                <Caption>Horátio das Formações</Caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Modalidade</th>
+                        <th scope="col">Dias</th>
+                        <th scope="col">Horário</th>
+                    </tr>
+                </thead>
+                 <tbody>
+                    <tr>
+                        <th scope="row">Pós-laboral</th>
+                        <td>Terças e Quintas-feiras</td>
+                        <td>19h00 às 21h00</td>
+                    </tr>
 
-Regime Pós-laboral: Terças e Quintas-feiras, das 19h00 às 21h00
-Regime de Fim de Semana: Sábados, das 10h00 às 13h00
-
-Formulário de Pré-Inscrição
-
-Dados pessoais do formando:
-- Nome completo
-- Endereço de correio eletrónico
-- Contacto telefónico
+                    <tr>
+                        <th scope="row">Fim de semana</th>
+                        <td>Sábados</td>
+                        <td>10h00 às 13h00</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <!--Sessão de Inscrições-->
-        <section id="inscricao"></section>
+        <section id="inscricao">
+            <h2>Formulário de Pré-Inscrição</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados pessoais do formando:</legend>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados da formação:</legend>
+                    <select name="" id="">
+
+                    </select>
+
+                    <input type="radio" name="" id="">
+                    <input type="radio" name="" id="">
+
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+
+                    <textarea name="" id=""></textarea>
+                </fieldset>
+            </form>
+        </section>
 
         <!--Sessão de Contatos-->
         <section id="contactos">
@@ -112,21 +150,11 @@ Dados pessoais do formando:
                 </li>                
             </ul>
         </section>
-        
     </main>
+
     <footer>
         <hr>
         <small>&copy; 2026 Associação dos Artesãos e Oleiros de Barcelos</small>
     </footer>
-
-
-
-Dados da formação:
-- Workshop pretendido (selecionar entre Roda de Oleiro, Pintura de Figurado ou Modelação Manual)
-- Regime de frequência (escolha exclusiva entre Pós-laboral ou Fim de semana)
-- Dias com disponibilidade (Terça-feira, Quinta-feira, Sábado)
-- Experiência anterior ou mensagem pessoal com expectativas
-- Autorização para receção de confirmação de vaga por e-mail
-
 </body>
 </html>
