@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <title>Casas antigas e a torre de uma igreja, ao pôr do sol</title>
+  <rect width="240" height="160" fill="#f6c28b"/>
+  <circle cx="186" cy="54" r="22" fill="#f28f3b"/>
+  <rect x="20" y="70" width="36" height="70" fill="#e9d8a6"/>
+  <polygon points="16,72 38,52 60,72" fill="#c8553d"/>
+  <rect x="32" y="84" width="12" height="14" fill="#5b6c8f"/>
+  <rect x="32" y="112" width="12" height="28" fill="#7a4e2d"/>
+  <rect x="62" y="40" width="30" height="100" fill="#ddd2bd"/>
+  <polygon points="58,42 77,14 96,42" fill="#8d6e63"/>
+  <rect x="71" y="54" width="12" height="18" rx="6" fill="#5b6c8f"/>
+  <rect x="98" y="80" width="40" height="60" fill="#fff3e0"/>
+  <polygon points="94,82 118,60 142,82" fill="#c8553d"/>
+  <rect x="106" y="92" width="10" height="12" fill="#5b6c8f"/>
+  <rect x="122" y="92" width="10" height="12" fill="#5b6c8f"/>
+  <rect x="112" y="116" width="14" height="24" fill="#7a4e2d"/>
+  <rect x="144" y="92" width="34" height="48" fill="#e9d8a6"/>
+  <polygon points="140,94 161,76 182,94" fill="#c8553d"/>
+  <rect x="155" y="104" width="12" height="12" fill="#5b6c8f"/>
+  <rect x="184" y="86" width="40" height="54" fill="#ddd2bd"/>
+  <polygon points="180,88 204,68 228,88" fill="#8d6e63"/>
+  <rect x="198" y="100" width="12" height="14" fill="#5b6c8f"/>
+  <rect y="140" width="240" height="20" fill="#6d597a"/>
+</svg>
