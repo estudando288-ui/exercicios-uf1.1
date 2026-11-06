@@ -119,45 +119,85 @@
 
                 <fieldset>
                     <legend>Dados da formação:</legend>
+
+                    <!-- Workshop pretendido -->
                     <div>
-                        <select name="area-formacao" id="area-formacao">
-                            <option value="" selected disabled>Escolhe uma formação</option>
+                        <label for="area-formacao">Workshop pretendido</label>
+
+                        <select name="area-formacao" id="area-formacao" required>
+                            <option value="" selected disabled>Escolhe o teu Workshop</option>
                             <option value="roda-de-oleiro">Roda de Oleiro</option>
-                            <option value="">Pintura de Figurado</option>
-                            <option value="">Modelação Manual</option>
+                            <option value="pintura-de-figurado">Pintura de Figurado</option>
+                            <option value="modelacao-manual">Modelação Manual</option>
                         </select>
                     </div>
-                        <label for="regime-formacao">Regime de frequência</label>
-                        <input type="radio" name="regime-formacao" id="regime-pos-laboral">Pós-laboral
-                        <input type="radio" name="regime-formacao" id="regime-fim-semana">Fim de semana
-                    <div>
 
-                    </div>
-                    
+                    <!-- Regime de frequência -->
+                    <fieldset>
+                        <legend>Regime de frequência</legend>
+
+                        <div>
+                            <input type="radio" name="regime-formacao"
+                                id="regime-pos-laboral" value="pos-laboral">
+                            <label for="regime-pos-laboral">Pós-laboral</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="regime-formacao"
+                                id="regime-fim-de-semana" value="fim-de-semana">
+                            <label for="regime-fim-de-semana">Fim de semana</label>
+                        </div>
+                    </fieldset>
+
+                    <!-- Dias disponíveis -->
+                    <fieldset>
+                        <legend>Dias com disponibilidade</legend>
+
+                        <div>
+                            <input type="checkbox" name="regime-dias-disponiveis[]"
+                                id="regime-dia-terca" value="terca">
+                            <label for="regime-dia-terca">Terça</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="regime-dias-disponiveis[]"
+                                id="regime-dia-quinta" value="quinta">
+                            <label for="regime-dia-quinta">Quinta</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="regime-dias-disponiveis[]"
+                                id="regime-dia-sabado" value="sabado">
+                            <label for="regime-dia-sabado">Sábado</label>
+                        </div>
+                    </fieldset>
+
+                    <!-- Experiência e expectativas -->
                     <div>
-                        <label for="regime-dias-disponiveis">Dias com disponibilidade</label>
-                        <input type="checkbox" name="regime-dias-disponiveis" id="regime-dia-terca">Terça
-                        <input type="checkbox" name="regime-dias-disponiveis" id="regime-dia-quinta">Quinta
-                        <input type="checkbox" name="regime-dias-disponiveis" id="regime-dia-sabado">Sábado
-                    </div>
-                    
-                    <div>
-                        <label for="motivacao-inscricao">Experiência anterior ou mensagem pessoal com expectativas</label>
-                        <textarea 
-                            name="motivacao-inscricao" 
+                        <label for="motivacao-inscricao">
+                            Experiência anterior ou mensagem pessoal com expectativas
+                        </label>
+
+                        <textarea name="motivacao-inscricao"
                             id="motivacao-inscricao"
                             rows="6"
-                            cols="40">
-                        </textarea>
+                            cols="40"></textarea>
                     </div>
 
+                    <!-- Autorização -->
                     <div>
-                        <label for="autorizacao">Termos de Autorização: </label>
-                        <input 
-                            type="checkbox" 
-                            name="autorizacao" 
-                            id="autorizacao">Autorização para receção de confirmação de vaga por e-mail
+                        <input type="checkbox" name="autorizacao"
+                            id="autorizacao" value="autorizado">
+
+                        <label for="autorizacao">
+                            Autorização para receção de confirmação de vaga por e-mail
+                        </label>
                     </div>
+                </fieldset>
+
+                <fieldset>
+                    <button type="reset">Limpar Formulário</button>
+                    <button type="submit">Enviar</button>
                 </fieldset>
             </form>
         </section>
@@ -181,7 +221,7 @@
                     <a 
                         href="https://artesanatobarcelos.pt"
                         target="_blank"
-                        rel="nooperner noreferer">
+                        rel="noopener noreferrer">
                         https://artesanatobarcelos.pt
                     </a>
                 </li>                
