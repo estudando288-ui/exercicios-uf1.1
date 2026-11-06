@@ -105,22 +105,57 @@
             <form action="#" method="post">
                 <fieldset>
                     <legend>Dados pessoais do formando:</legend>
+
+                    <label for="nome-inscricao">Nome Completo</label>
+                    <input type="text" id="nome-inscricao" placeholder="Insere o teu nome completo">
+
+                    <label for="email-inscricao">Endereço de correio eletrónico</label>
+                    <input type="email" id="email-inscricao" placeholder="Insere o teu email">
+
+                    <label for="telefone-inscricao">Contacto telefónico</label>
+                    <input type="tel" id="telefone-inscricao" placeholder="Insere teu contacto telefónico">
                 </fieldset>
 
                 <fieldset>
                     <legend>Dados da formação:</legend>
-                    <select name="" id="">
+                    <div>
+                        <select name="area-formacao" id="area-formacao">
+                            <option value="" selected disabled>Escolhe uma formação</option>
+                            <option value="roda-de-oleiro">Roda de Oleiro</option>
+                            <option value="">Pintura de Figurado</option>
+                            <option value="">Modelação Manual</option>
+                        </select>
+                    </div>
+                        <label for="regime-formacao">Regime de frequência</label>
+                        <input type="radio" name="regime-formacao" id="regime-pos-laboral">Pós-laboral
+                        <input type="radio" name="regime-formacao" id="regime-fim-semana">Fim de semana
+                    <div>
 
-                    </select>
+                    </div>
+                    
+                    <div>
+                        <label for="regime-dias-disponiveis">Dias com disponibilidade</label>
+                        <input type="checkbox" name="regime-dias-disponiveis" id="regime-dia-terca">Terça
+                        <input type="checkbox" name="regime-dias-disponiveis" id="regime-dia-quinta">Quinta
+                        <input type="checkbox" name="regime-dias-disponiveis" id="regime-dia-sabado">Sábado
+                    </div>
+                    
+                    <div>
+                        <label for="motivacao-inscricao">Experiência anterior ou mensagem pessoal com expectativas</label>
+                        <textarea 
+                            name="motivacao-inscricao" 
+                            id="motivacao-inscricao"
+                            rows="6"
+                            cols="40">
+                        </textarea>
+                    </div>
 
-                    <input type="radio" name="" id="">
-                    <input type="radio" name="" id="">
-
-                    <input type="checkbox" name="" id="">
-                    <input type="checkbox" name="" id="">
-                    <input type="checkbox" name="" id="">
-
-                    <textarea name="" id=""></textarea>
+                    <div>
+                        <input 
+                            type="checkbox" 
+                            name="autorizazao" 
+                            id="autorizazao">Autorização para receção de confirmação de vaga por e-mail
+                    </div>
                 </fieldset>
             </form>
         </section>
