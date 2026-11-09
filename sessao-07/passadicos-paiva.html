@@ -260,13 +260,14 @@
                     <label for="nome">Nome completo:</label>
 
                     <input type="text" id="nome" name="nome" required minlength="3" maxlength="100"
-                        placeholder="Introduza o seu nome completo">
+                        placeholder="Introduza o seu nome completo" autocomplete="name">
 
                     <br><br>
 
                     <label for="email">Endereço de correio eletrónico:</label>
 
-                    <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+                    <input type="email" id="email" name="email" required placeholder="exemplo@email.com"
+                        autocomplete="email">
 
                     <br><br>
 
@@ -286,13 +287,13 @@
 
                     <label for="data">Data da visita:</label>
 
-                    <input type="date" id="data" name="data" required>
+                    <input type="date" id="data" name="data" min="2026-11-09" required>
 
                     <br><br>
 
                     <label for="participantes">Número total de participantes:</label>
 
-                    <input type="number" id="participantes" name="participantes" min="1" max="25" step="1" required>
+                    <input type="number" id="participantes" name="participantes" min="1" max="25" step="1">
 
                     <br><br>
 
