@@ -1,0 +1,100 @@
+
+/* =================================
+   1. SELETORES DE TIPO
+================================= */
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    background-color: #f8fafc;
+    color: #334155;
+}
+
+/* =================================
+   2. TÍTULOS AGRUPADOS
+================================= */
+
+h1, h2, h3 {
+    color: #0f172a;
+}
+
+h2 {
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 8px;
+}
+
+/* =================================
+   3. TABELAS
+================================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+}
+
+th {
+    background-color: #e2e8f0;
+}
+
+/* =================================
+   4. SELETORES DESCENDENTES
+================================= */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0f172a;
+}
+
+/* =================================
+   5. SELETORES DE CLASSE
+================================= */
+
+.cartao {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.curiosidade,
+.aviso {
+    border-left: 5px solid #0ea5e9;
+    background-color: #e0f2fe;
+    padding: 15px;
+}
+
+.botao {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* =================================
+   6. SELETORES DE ID
+================================= */
+
+#formulario-sugestoes, #reformulario-reservaserva {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+}
