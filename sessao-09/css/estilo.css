@@ -1,0 +1,201 @@
+/*
+========================================
+Paleta de cores das páginas da cidade 
+e dos Passadiços:
+
+IDENTIDADE VISUAL - NEON CYBERPUNK
+========================================
+
+Cores principais:
+- Principal: #B026FF (Roxo Neon - para os links e os botões)
+- Títulos: #00F0FF (Ciano Neon)
+- Realce: #FF2BD6 (Rosa Neon - para as caixas de aviso)
+
+Cores neutras:
+- Texto: #F2F0FF
+- Texto secundário: #9B97B8
+- Bordas: #2E2150
+- Fundo da página: #0B0716
+- Fundo dos cartões: #140D26
+
+========================================
+
+
+  --font-heading: "Orbitron", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+
+======================================================
+       **Base:**
+======================================================*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    background-color: #0B0716;
+    color: #F2F0FF;
+    margin: 0;
+}
+
+main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+/*====================================================
+       **Texto:**
+======================================================*/
+h1, h2, h3 {
+    color: #00F0FF;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.4rem;
+    margin: 10px 5px 10x 5px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #B026FF;
+    font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+    border-bottom: 1px solid #39ff88;
+    padding-bottom: 8px;
+}
+
+p {
+    max-width: 70ch;
+    color: #f2f0ff;
+}
+
+/* =================================
+ **Cabeçalho e menu:**
+================================= */
+header img{
+    border-radius: 40px;
+    width: 1830px;
+    height: 300px;
+}
+
+header p{
+    margin-inline: auto;
+    color: #9b97b8;
+}
+
+header h1 {
+    padding: 0;
+    margin: 0;
+}
+header,footer {
+    background: #1d1336;
+    padding: 32px;
+    border: 2px solid #2e2150;
+    border-radius: 14px;
+    box-shadow: #39ff88;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #00F0FF;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    color:#2563eb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+legend {
+    color: #ff2bd6;
+}
+caption {
+    color: #ff2bd6;
+}
+
+th, td {
+    border: 1px solid #2e2150;
+    padding: 10px;
+}
+
+th[scope="col"] {
+    background-color: #B026FF ;
+    color: #2e2150;  
+}
+ th [scope="rows"] {
+    color: #00F0FF;
+ }
+
+/* =================================
+
+================================= */
+
+main a, footer a {
+    color: #B026FF;
+    text-decoration: none;
+}
+
+main a:hover, footer a:hover {
+    color: #00F0FF;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* =================================
+
+================================= */
+
+.cartao {
+    background-color: #140D26;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.curiosidade,
+.aviso {
+    border-left: 5px solid #0ea5e9;
+    background-color: #e0f2fe;
+    padding: 15px;
+}
+
+.botao {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* =================================
+
+================================= */
+
+#formulario-sugestoes, #reformulario-reserva {
+    background-color: #140D26;
+    border-radius: 10px;
+    padding: 25px;
+}
